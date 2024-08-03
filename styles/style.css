@@ -3,7 +3,7 @@
 
 
 
-body{background: rgb(0, 0, 0);} 
+body{background: rgb(0, 0, 0); margin: 0px;} 
 header{background: linear-gradient( 
     rgb(17, 17, 17),rgba(119, 119, 119, 0) );}
 
@@ -400,4 +400,133 @@ text-align: left;}
 
 
 
-        /* jdfgh */ .ajaira{ width: 400px; color: azure;}
+        /* jdfgh */ 
+
+
+.BMI-Calculator{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 10px;
+margin-top: 50px; margin-bottom: 50px; }
+
+
+
+.Bmi-part-taitle{color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0%;
+    text-align: left;
+     margin-bottom: 0px;}
+
+.bmi-part-des{ color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: left;
+margin-top: 20px; }
+
+
+
+.bmai-calculator-container{ 
+    width: 100%;   
+    background: rgb(34, 34, 34); 
+    position: static;
+    height: 587px; position: relative; display: flex;
+    
+    /* flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 88px 0px; */
+      }
+            
+                            
+
+
+.BMI-Calculator-part-one{width: 30%;
+    height: 386px; position: relative; margin-left: 5%; display: flex; flex-direction: column; }
+
+.bmi-taitle{ color: rgb(255, 255, 255); 
+            font-family: Inter; 
+            margin-bottom: 0px;
+            text-align: center; position: absolute;
+            }
+
+.calculator-table{position: absolute;
+    width: 310px;
+    height: 216px;
+    left: px;
+    right: px;
+    top: 100px;
+    bottom: px;}  
+    
+    td , th { border: 1px solid rgba(255, 255, 255, 0.1);}   
+    table {   border-collapse: collapse;}
+
+
+
+.BMI-Calculator-part-tow{/* Frame 40 */
+    position: absolute;
+    width: 577px;
+    height: 386px;
+border: 2px solid tomato;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin-left: 1000px;
+    }
+
+
+
+  .Bmi-part-taitleee{color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;}
+
+    .bmi-part-desss{color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: left; }
+
+    .inputs{ display: grid; 
+      grid-template-areas: "hight wight"
+                           "age  sex"
+                           "description description" ;}
+
+    .hight{ grid-area: hight  ; width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+
+        background: rgba(255, 255, 255, 0.1);
+        height: 48px;}
+    .wight{grid-area: wight ; width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+
+        background: rgba(255, 255, 255, 0.1);
+        height: 48px;}
+    .age{grid-area:  age ; width: 282.5px; padding: 12px 40px 12px 20px;border-radius: 8px;
+
+        background: rgba(255, 255, 255, 0.1);
+        height: 48px;}
+    .sex{grid-area: sex ; width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+
+        background: rgba(255, 255, 255, 0.1);
+        height: 48px; width: 282.5px;
+        height: 48px;}
+    .description{grid-area:description ;  width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+
+        background: rgba(255, 255, 255, 0.1);
+        height: 48px;}
+
+
+
