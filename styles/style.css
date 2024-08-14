@@ -6,7 +6,7 @@
 body{background: rgb(0, 0, 0); margin: 0px;} 
 header{background: linear-gradient( 
     rgb(17, 17, 17),rgba(119, 119, 119, 0) );}
-
+    main{ margin-bottom: 50px;     }
 .nav-section{display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -540,7 +540,7 @@ border: 2px solid tomato;
 .our-team-container{ width: 100%;   height: auto;  
     display: flex;  flex-direction: column;  
     justify-content: center;      
-    align-items: center; }
+    align-items: center; margin-bottom: 50px;}
 
 .our-team-taitle{color: rgb(255, 255, 255);
     font-family: Inter;
@@ -563,7 +563,7 @@ border: 2px solid tomato;
 
     background: rgba(255, 255, 255, 0.1); padding: 15px; row-gap: 12px; column-gap: 15px ;}
 
-        .member-img-1{ height: 300px; width: 300px; 
+        .member-img-1{ height: 300px; width: 350px; 
             border-radius: 18px;
             background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer1.png); 
             background-size: cover; background-position: center;
@@ -571,7 +571,7 @@ border: 2px solid tomato;
 
 
 
-            .member-img-2{ height: 300px; width: 300px; 
+            .member-img-2{ height: 300px; width: 350px; 
                 border-radius: 18px;
                 background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer2.png); 
                 background-size: cover; background-position: center;
@@ -579,28 +579,28 @@ border: 2px solid tomato;
 
 
 
-                .member-img-3{ height: 300px; width: 300px; 
+                .member-img-3{ height: 300px; width: 350px; 
                     border-radius: 18px;
                     background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer3.png); 
                     background-size: cover; background-position: center;
                     overflow: hidden;  display: flex; flex-direction: column; justify-content: end;}
                     
                     
-                    .member-img-4{ height: 300px; width: 300px; 
+                    .member-img-4{ height: 300px; width: 350px; 
                         border-radius: 18px;
                         background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer4.png); 
                         background-size: cover; background-position: center;
                         overflow: hidden; display: flex; flex-direction: column; justify-content: end;  }
                     
 
-                .member-img-5{ height: 300px; width: 300px; 
+                .member-img-5{ height: 300px; width:350px; 
                             border-radius: 18px;
                             background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer5.png); 
                             background-size: cover; background-position: center;
                             overflow: hidden; display: flex; flex-direction: column; justify-content: end; }
 
 
-            .member-img-6{ height: 300px; width: 300px; 
+            .member-img-6{ height: 300px; width: 350px; 
                                 border-radius: 18px;
                                 background: rgba(0, 0, 0, 0.2); 
                                 background-image: url(../images/trainer6.png); 
@@ -631,4 +631,65 @@ border: 2px solid tomato;
                 margin-left: 20px;}
 
 
+/* footer section start */
+footer{ width:100% ; margin-top: 3000px;  
+    height: 400px;   
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 0px; display: flex; flex-direction: column; 
+    justify-content: center; align-items: center;}
 
+    .footer-container{ width:70% ; height:300px ; display: flex;   
+    align-items: center; justify-content: center;  gap: 200px; }
+    .footer-part-one-taitle{
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 70px;
+        font-weight: 800;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;}
+        .footer-part-one-des{color: rgba(255, 255, 255, 0.5);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.3px;
+            text-align: left;}
+
+            .footer-part-2{display: flex; gap: 150px; }
+            .footer-colum-taitle{color: rgb(255, 255, 255);
+                font-family: Inter;
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 120%;
+                letter-spacing: 0%;
+                text-align: left;}
+
+
+            .line{border: 2px solid rgba(255, 255, 255, 0.1); width: 80% ;}
+.right{color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;}
+
+    .footer-colum-1> ul >li{color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    text-decoration: none; gap: 15px;  }
+            
+    .footer-colum-2> ul >li{color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 23px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: left;
+    text-decoration: none; gap: 15px;  }
+            
