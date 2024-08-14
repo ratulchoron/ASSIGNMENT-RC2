@@ -432,10 +432,10 @@ margin-top: 20px; }
 
 
 .bmai-calculator-container{ 
-    width: 100%;   
+    width: 80%;   
     background: rgb(34, 34, 34); 
     position: static;
-    height: 587px; position: relative; display: flex;
+    display: flex;
     
     /* flex: none;
     order: 2;
@@ -469,18 +469,13 @@ margin-top: 20px; }
 
 
 
-.BMI-Calculator-part-tow{/* Frame 40 */
-    position: absolute;
-    width: 577px;
+.BMI-Calculator-part-tow{
+    
+    width: auto;
     height: 386px;
 border: 2px solid tomato;
-    /* Auto layout */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin-left: 1000px;
+    margin-left: 27rem;
+    
     }
 
 
@@ -501,32 +496,139 @@ border: 2px solid tomato;
         letter-spacing: 0.3px;
         text-align: left; }
 
-    .inputs{ display: grid; 
-      grid-template-areas: "hight wight"
-                           "age  sex"
-                           "description description" ;}
+    .inputs{ display: grid; grid-template-columns: 200px 200px; grid-row: 3 / 2; row-gap: 10px; }
 
-    .hight{ grid-area: hight  ; width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+    #box-1{ height: 40px;  padding: auto; }
+    #box-2{ height: 40px; padding: auto; }
+    #box-3{ height: 40px;  padding: auto; }
+    #box-4{ height: 45px; width: 180px; padding: auto; }
+    #box-5{ height: 45px; width: 390px; padding: auto; }
+    
+
+
+                 .btn-calculate{border-radius: 35px;
+                    background: rgb(230, 83, 60);
+                    padding: 16px 40px 16px 40px;
+                    color: rgb(255, 255, 255);
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 22px; 
+                    margin-top: 30px;
+                    }
+
+    /* .hight{   padding: 12px 40px 12px 20px; border-radius: 8px;
 
         background: rgba(255, 255, 255, 0.1);
-        height: 48px;}
-    .wight{grid-area: wight ; width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+        }
+    .wight{ padding: 12px 40px 12px 20px; border-radius: 8px;
 
         background: rgba(255, 255, 255, 0.1);
-        height: 48px;}
-    .age{grid-area:  age ; width: 282.5px; padding: 12px 40px 12px 20px;border-radius: 8px;
+        }
+    .age{  padding: 12px 40px 12px 20px; border-radius: 8px;
 
         background: rgba(255, 255, 255, 0.1);
-        height: 48px;}
-    .sex{grid-area: sex ; width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+        }
+    .sex{ padding: 12px 40px 12px 20px; border-radius: 8px;
 
         background: rgba(255, 255, 255, 0.1);
-        height: 48px; width: 282.5px;
-        height: 48px;}
-    .description{grid-area:description ;  width: 282.5px; padding: 12px 40px 12px 20px; border-radius: 8px;
+        }
+    .description{ padding: 12px 40px 12px 20px; border-radius: 8px;
 
-        background: rgba(255, 255, 255, 0.1);
-        height: 48px;}
+        background: rgba(255, 255, 255, 0.1); */
+        
+.our-team-container{ width: 100%;   height: auto;  
+    display: flex;  flex-direction: column;  
+    justify-content: center;      
+    align-items: center; }
+
+.our-team-taitle{color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;}
+
+.our-tyeam-des{color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;}
+
+.team-imges{display: grid; grid-template-columns: repeat(3 , 1fr);
+    border-radius: 18px;
+
+    background: rgba(255, 255, 255, 0.1); padding: 15px; row-gap: 12px; column-gap: 15px ;}
+
+        .member-img-1{ height: 300px; width: 300px; 
+            border-radius: 18px;
+            background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer1.png); 
+            background-size: cover; background-position: center;
+            overflow: hidden; display: flex; flex-direction: column; justify-content: end; }
+
+
+
+            .member-img-2{ height: 300px; width: 300px; 
+                border-radius: 18px;
+                background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer2.png); 
+                background-size: cover; background-position: center;
+                overflow: hidden;  display: flex; flex-direction: column; justify-content: end; }
+
+
+
+                .member-img-3{ height: 300px; width: 300px; 
+                    border-radius: 18px;
+                    background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer3.png); 
+                    background-size: cover; background-position: center;
+                    overflow: hidden;  display: flex; flex-direction: column; justify-content: end;}
+                    
+                    
+                    .member-img-4{ height: 300px; width: 300px; 
+                        border-radius: 18px;
+                        background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer4.png); 
+                        background-size: cover; background-position: center;
+                        overflow: hidden; display: flex; flex-direction: column; justify-content: end;  }
+                    
+
+                .member-img-5{ height: 300px; width: 300px; 
+                            border-radius: 18px;
+                            background: rgba(0, 0, 0, 0.2); background-image: url(../images/trainer5.png); 
+                            background-size: cover; background-position: center;
+                            overflow: hidden; display: flex; flex-direction: column; justify-content: end; }
+
+
+            .member-img-6{ height: 300px; width: 300px; 
+                                border-radius: 18px;
+                                background: rgba(0, 0, 0, 0.2); 
+                                background-image: url(../images/trainer6.png); 
+                                background-size: cover; background-position: center;
+                                overflow: hidden; display: flex; flex-direction: column; justify-content: end;}
+                            
+                        
+                    
+                
+            
+        
+        
+        
+            .member-name{color: rgb(255, 255, 255);
+                font-family: Inter;
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 120%;
+                letter-spacing: 0%;
+                margin-bottom: 0px;
+                margin-left: 20px; }
+            .member-des{color: rgb(255, 255, 255);
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 17px;
+                letter-spacing: 0px;
+                margin-left: 20px;}
 
 
 
