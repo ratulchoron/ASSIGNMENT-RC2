@@ -432,11 +432,12 @@ margin-top: 20px; }
 
 
 .bmai-calculator-container{ 
-    width: 80%;   
+    width: 100%;   
     background: rgb(34, 34, 34); 
-    position: static;
     display: flex;
-    
+    align-items: center;
+    justify-content: center;
+    gap: 200px; 
     /* flex: none;
     order: 2;
     align-self: stretch;
@@ -447,34 +448,49 @@ margin-top: 20px; }
                             
 
 
-.BMI-Calculator-part-one{width: 30%;
-    height: 386px; position: relative; margin-left: 5%; display: flex; flex-direction: column; }
+.BMI-Calculator-part-one{ margin-left: 150px;
+    height: 386px; display: flex; flex-direction: column; }
 
 .bmi-taitle{ color: rgb(255, 255, 255); 
             font-family: Inter; 
             margin-bottom: 0px;
-            text-align: center; position: absolute;
+            text-align: center;
+            margin-bottom: 20px; 
             }
 
-.calculator-table{position: absolute;
+.calculator-table{
     width: 310px;
     height: 216px;
-    left: px;
+    top: 60px;
     right: px;
-    top: 100px;
     bottom: px;}  
     
+    td{color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;}
+
+    th{color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 120%;
+        letter-spacing: 0%;
+        text-align: center;}
+
     td , th { border: 1px solid rgba(255, 255, 255, 0.1);}   
-    table {   border-collapse: collapse;}
+    table {   border-collapse: collapse; }
 
 
 
 .BMI-Calculator-part-tow{
     
-    width: auto;
-    height: 386px;
-border: 2px solid tomato;
-    margin-left: 27rem;
+    width: 600px;
+    height: 400px;
+   margin-bottom: 70px;
     
     }
 
@@ -496,14 +512,17 @@ border: 2px solid tomato;
         letter-spacing: 0.3px;
         text-align: left; }
 
-    .inputs{ display: grid; grid-template-columns: 200px 200px; grid-row: 3 / 2; row-gap: 10px; }
+    .inputs{ width:600px; display: grid; grid-template-columns:250px 250px ; 
+        column-gap: 15px; row-gap: 10px;  }
 
-    #box-1{ height: 40px;  padding: auto; }
-    #box-2{ height: 40px; padding: auto; }
-    #box-3{ height: 40px;  padding: auto; }
-    #box-4{ height: 45px; width: 180px; padding: auto; }
-    #box-5{ height: 45px; width: 390px; padding: auto; }
-    
+    #box-1{ height: 40px; width: 250px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
+    #box-2{ height: 40px; width: 250px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
+    #box-3{ height: 40px; width: 250px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
+    #box-4{ height: 45px; width: 258px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
+    #box-5{ height: 45px; width: 522px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
+    .box{;
+
+        }
 
 
                  .btn-calculate{border-radius: 35px;
@@ -515,6 +534,7 @@ border: 2px solid tomato;
                     font-weight: 600;
                     line-height: 22px; 
                     margin-top: 30px;
+                    margin-bottom: 70px;
                     }
 
     /* .hight{   padding: 12px 40px 12px 20px; border-radius: 8px;
@@ -663,7 +683,7 @@ footer{ width:100% ; margin-top: 3000px;
                 font-weight: 700;
                 line-height: 120%;
                 letter-spacing: 0%;
-                text-align: left;}
+                text-align: center;  }
 
 
             .line{border: 2px solid rgba(255, 255, 255, 0.1); width: 80% ;}
@@ -674,7 +694,8 @@ footer{ width:100% ; margin-top: 3000px;
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: center;}
-
+    .footer-colum-1 , .footer-colum-2{ display: flex; flex-direction: column; 
+        align-items: center; justify-content: left; }
     .footer-colum-1> ul >li{color: rgba(255, 255, 255, 0.5);
         font-family: Inter;
         font-size: 23px;
@@ -682,7 +703,7 @@ footer{ width:100% ; margin-top: 3000px;
         line-height: 120%;
         letter-spacing: 0%;
         text-align: left;
-    text-decoration: none; gap: 15px;  }
+    text-decoration: left; gap: 15px;  }
             
     .footer-colum-2> ul >li{color: rgba(255, 255, 255, 0.5);
         font-family: Inter;
@@ -691,5 +712,5 @@ footer{ width:100% ; margin-top: 3000px;
         line-height: 120%;
         letter-spacing: 0%;
         text-align: left;
-    text-decoration: none; gap: 15px;  }
+    text-decoration: left; gap: 15px; }
             
