@@ -726,9 +726,11 @@ footer{ width:100% ; margin-top: 3000px;
         letter-spacing: 0%;
         text-align: left;} 
 
-        .footer-container{ width:100% ;  display: flex;  height: 1000px; flex-direction: column;
+        .footer-container{ width:100% ;height: 1200px; display: flex;   flex-direction: column;
             align-items: center; justify-content: center;  }
-
+        .footer-part-one-taitle{ margin:0px ;} .footer-part-one-des , 
+        .footer-part-2 , .footer-colum-2, .footer-colum-1{ margin:0px ;}
+        
         .head-btn-1{    
             border-radius: 20px;
             background: rgb(230, 83, 60);
@@ -825,8 +827,8 @@ footer{ width:100% ; margin-top: 3000px;
                         justify-content: center;
                          } 
                          
-                         footer{ width:100% ; margin-top: 7000px;  
-                            height: 400px;   
+                         footer{ width:100% ; height: 1200px; margin-top: 6800px;  
+              
                             background: rgba(255, 255, 255, 0.1);
                             margin-bottom: 0px; display: flex; flex-direction: column; 
                             justify-content: center; align-items: center;} 
@@ -843,21 +845,22 @@ footer{ width:100% ; margin-top: 3000px;
 
 
 
-                                  .BMI-Calculator-part-one{ margin-left: auto;
+                                  .BMI-Calculator-part-one{ align-items: center; 
+                                    justify-content: center; margin-right: 120px;
                                     height: 386px; display: flex; flex-direction: column; }
                                 
                                 .bmi-taitle{ color: rgb(255, 255, 255); 
                                             font-family: Inter; 
                                             margin-bottom: 0px;
-                                            text-align: center;
+                                            text-align: left;
                                             margin-bottom: 20px; 
                                             }
-                                
+                                            .bmai-calculator-container{ display: }
                                 .calculator-table{
                                     width: 310px;
                                     height: 216px;
                                     top: 60px;
-                                    right: px;
+                                    right: 40px;
                                     bottom: px;}  
                                     
                                     td{color: rgba(255, 255, 255, 0.5);
@@ -867,7 +870,7 @@ footer{ width:100% ; margin-top: 3000px;
                                         line-height: 120%;
                                         letter-spacing: 0%;
                                         text-align: center;}
-                                
+                                        .footer-part-2{display: flex; flex-direction: column; }
                                     th{color: rgb(255, 255, 255);
                                         font-family: Inter;
                                         font-size: 16px;
@@ -882,11 +885,14 @@ footer{ width:100% ; margin-top: 3000px;
                                 
                                 
                                 .BMI-Calculator-part-tow{
-                                    
+                                    margin-left: 20px;
                                     width: auto;
-                                    height: 400px;
-                                   margin-bottom: 70px;
-                                    
+                                    height: 400px; padding: 10px;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    text-align: center;
                                     }
                                 
                                 
@@ -903,7 +909,7 @@ footer{ width:100% ; margin-top: 3000px;
                                         font-weight: 400;
                                         line-height: 24px;
                                         letter-spacing: 0.3px;
-                                        text-align: left; }
+                                        text-align: center; }
                                 
                                     .inputs{ width:auto; display: grid; grid-template-columns:150px 150px ; 
                                         column-gap: 15px; row-gap: 10px;  }
@@ -912,7 +918,7 @@ footer{ width:100% ; margin-top: 3000px;
                                     #box-2{ height: 40px; width: 150px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
                                     #box-3{ height: 40px; width: 150px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
                                     #box-4{ height: 45px; width: 158px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
-                                    #box-5{ height: 45px; width: 422px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
+                                    #box-5{ height: 45px; width: 322px; padding: auto; border-radius: 8px ; background: rgba(255, 255, 255, 0.1);}
                                 
                                 
                                 
